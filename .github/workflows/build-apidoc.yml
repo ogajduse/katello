@@ -16,3 +16,4 @@ jobs:
       foreman_version: 5.0-stable
       test_existing_database: false
       test_core_tests: false
+      additional_packages: libcap-dev
