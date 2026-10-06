@@ -13,7 +13,7 @@ jobs:
       plugin: katello
       plugin_repository: Katello/katello
       plugin_version: KATELLO-5.0
-      foreman_version: 5.0-stable
+      foreman_version: 5.0.1
       test_existing_database: false
       test_core_tests: false
       additional_packages: libcap-dev
