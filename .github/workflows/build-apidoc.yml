@@ -1,6 +1,9 @@
 name: Build Katello API docs
 
 on:
+  push:
+    branches:
+      - katello-5.0-apidoc-build
   workflow_dispatch:
 
 jobs:
