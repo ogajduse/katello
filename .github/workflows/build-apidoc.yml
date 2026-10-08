@@ -8,12 +8,13 @@ on:
 
 jobs:
   katello:
-    uses: theforeman/actions/.github/workflows/foreman_plugin.yml@build-docs-again
+    uses: ogajduse/actions/.github/workflows/foreman_plugin.yml@apidoc-generation
     with:
       plugin: katello
       plugin_repository: Katello/katello
       plugin_version: KATELLO-5.0
-      foreman_version: 5.0.0
+      foreman_version: 5.0-stable
       test_existing_database: false
       test_core_tests: false
       additional_packages: libcap-dev
+      generate_apidoc: true
