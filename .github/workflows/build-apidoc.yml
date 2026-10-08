@@ -11,8 +11,8 @@ jobs:
     uses: ogajduse/actions/.github/workflows/foreman_plugin.yml@apidoc-generation
     with:
       plugin: katello
-      plugin_repository: Katello/katello
-      plugin_version: KATELLO-5.0
+      plugin_repository: ogajduse/katello
+      plugin_version: katello-5.0-apidoc-build
       foreman_version: 5.0-stable
       test_existing_database: false
       test_core_tests: false
